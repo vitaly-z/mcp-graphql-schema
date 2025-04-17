@@ -1,5 +1,6 @@
 # GraphQL Schema Model Context Protocol Server
 
+[![smithery badge](https://smithery.ai/badge/@hannesj/mcp-graphql-schema)](https://smithery.ai/server/@hannesj/mcp-graphql-schema)
 A Model Context Protocol (MCP) server that exposes GraphQL schema information to Large Language Models (LLMs) like Claude. This server allows an LLM to explore and understand GraphQL schemas through a set of specialized tools.
 
 ## Features
@@ -29,6 +30,14 @@ npx -y mcp-graphql-schema /absolute/path/to/schema.graphqls
 
 # Show help
 npx -y mcp-graphql-schema --help
+```
+
+### Installing via Smithery
+
+To install GraphQL Schema for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@hannesj/mcp-graphql-schema):
+
+```bash
+npx -y @smithery/cli install @hannesj/mcp-graphql-schema --client claude
 ```
 
 ### Claude Desktop Integration
